@@ -1,10 +1,14 @@
 Installation
 ============
 
+
 Python version
 --------------
 
 Use Python >= 3.3
+
+(For Python installation instructions and pre requirements look
+[here](https://github.com/radekj/dealer-buildout#pre-requirements))
 
 
 Buildout
@@ -12,19 +16,27 @@ Buildout
 
 Run buildout the standard way:
 
-$ python ./bootstrap.py
+Firstly run the bootstrap script (remember to use the proper version of Python
+interpreter):
 
-$ ./bin/buildout
+`$ python ./bootstrap.py`
+
+Then run the buildout script:
+
+`$ ./bin/buildout`
 
 
-Setup
+Tests
 -----
 
-Setup port number in config.ini file
+Run the tests suite:
+
+`$ ./bin/test`
+
 
 Run
 ---
 
-Run application with generated script:
+Run the application server:
 
-$ ./bin/play
+`$ ./bin/play`
